@@ -38,8 +38,9 @@
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="profile.html">Profile</a></li>
 							<li><a href="skill.html">Skill</a></li>
-							<!-- <li><a href="generic.html">Generic Page</a></li> -->
-							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
+							<li><a href="old_index.html">Old Index</a></li>
+							<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://twitter.com/piece_of_c4ke" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -52,38 +53,61 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<!-- <h2><a href="#">My Name is </br>Yoshiki Nakagawa</a></h2> -->
-									<a href="images/wide_profile.jpg" class="image main" target="_blank"><img src="images/wide_profile.jpg" alt="" /></a>
-									<p>"I'm a passionate developer but more importantly, I'm passionate about technology."</p>
-								</header>
-								<ul class="actions special">
-									<li><a href="profile.html" class="button large">Profile</a></li>
-								</ul>
-							</article>
+						<article class="post featured">
+							<header class="major">
+								<!-- <h2><a href="#">My Name is </br>Yoshiki Nakagawa</a></h2> -->
+								<a href="images/wide_profile.jpg" class="image main" target="_blank"><img src="images/wide_profile.jpg" alt="" /></a>
+								<p>"I'm a passionate developer but more importantly, I'm passionate about technology."</p>
+							</header>
+							<ul class="actions special">
+								<li><a href="profile.html" class="button large">Profile</a></li>
+							</ul>
+						</article>
 
 						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/yoshiki-o0/paycheck_graph" target="_blank">Project 1<br />
-										Paycheck Graph</a></h2>
-									</header>
-									<a href="images/income_timechart.jpg" class="image fit" target="_blank"><img src="images/income_timechart.jpg" alt="" /></a>
-									<p>Analyze your paycheck with this package. It creates timeline chart from your PDF paycheck files.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/yoshiki-o0/paycheck_graph" class="button" target="_blank">Check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Project 2<br />
-										Comming Soon...</a></h2>
-									</header>
-									<a href="images/comming_soon.jpg" class="image fit" target="_blank"><img src="images/comming_soon.jpg" alt="" /></a>
-								</article>
-							</section>
+						<section class="posts">
+							<article>
+								<header>
+									<span class="date"> Feb 28, 2020</span>
+									<h2><a href="https://github.com/yoshiki-o0/paycheck_graph" target="_blank">Primely Origin</a></h2>
+								</header>
+								<a href="images/income_timechart.jpg" class="image fit" target="_blank"><img src="images/income_timechart.jpg" alt="" /></a>
+								<p>Primely is an analysis tool in development by me, that aims to deliver my colleague and other employees some intelligence from the sequential study of their paychecks. This repo converts PDF paycheck files into JSON format and exports them in multiple approaches such as storing to MongoDB and visualizing by pandas package.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/yoshiki-o0/paycheck_graph" class="button" target="_blank">Check it out</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<span class="date">March 16, 2020</span>
+									<h2><a href="#">Primely Engine</a></h2>
+								</header>
+								<a href="images/pay_engine.jpg" class="image fit" target="_blank"><img src="images/pay_engine.jpg" alt="" /></a>
+								<p>The backend of Primely is deployed on AWS. Core Engine and API Engine are the two engines implemented on AWS Lambda. The Core converts original PDF file into JSON files which are uploaded from the client's device. Moreover, the API extract, transform and load the designated data group called by the client's device.</p>
+								<ul class="actions special">
+									<li><a href="images/pay_engine.jpg" class="button" target="_blank">Check it out</a></li>
+								</ul>
+							</article>
+						</article>
+							<article>
+								<header>
+									<span class="date">March 16, 2020</span>
+									<h2><a href="#">Primely Web Console</a></h2>
+								</header>
+								<a href="images/pay_web.jpg" class="image fit" target="_blank"><img src="images/pay_web.jpg" alt="" /></a>
+								<p>The ultimate goal for the web console is to create a system admin console where clients don't use but the service provider utilizes to analyze user activities. However, because a web console is more fit for the interactive user experience than mobile apps, the utilization of the web console is uncertain at this point. For now, it will be withheld to the backlog.</p>
+								<ul class="actions special">
+									<li><a href="https://yoshiki-o0.github.io/paycheck_web_console/" class="button" target="_blank">Check it out</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<span class="date">-</span>
+									<h2><a href="https://yoshiki-o0.github.io/paycheck_web_console/">Primely iOS</a></h2>
+								</header>
+								<a href="images/comming_soon.jpg" class="image fit" target="_blank"><img src="images/comming_soon.jpg" alt="" /></a>
+							</article>
+						</section>
 					</div>
 
 				<!-- Footer -->
