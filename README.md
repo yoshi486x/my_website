@@ -1,6 +1,7 @@
 # yoshikinakagawa.github.io
+---
 
-## This is my homepage
+## To Access
 
-click on the link below to access.<br>
-https://yoshiki-o0.github.io/yoshikinakagawa.github.io/
+Click on the link below.<br>
+https://yoshiki-o0.github.io/my_website/
